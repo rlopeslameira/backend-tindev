@@ -39,4 +39,4 @@ app.use(routes);
 
 const port = process.env.PORT;
 
-server.listen(port | 3333);
+server.listen(port || 3333);
